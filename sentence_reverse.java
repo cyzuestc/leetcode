@@ -8,8 +8,7 @@ public class sentence_reverse {
         String[] res =  s.split(" ");
         for (int i = res.length-1; i >= 0; i--) {
             sb.append(res[i]);
-            sb.append(" ");
+            sb.append(" 1");
         }
-        System.out.printf(sb.substring(0,sb.length()-1).toString());
     }
 }
